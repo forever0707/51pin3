@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html style="font-size: 44.444px;" lang="zh-CN">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>列表</title>
+
+    <link rel="stylesheet" href="../../../wyp/css/index-1.css"/>
+    <link rel="stylesheet" href="../../../wyp/css/footer-menu.css">
+    <link rel="stylesheet" href="../../../wyp/css/an.css"/>
+    <link rel="stylesheet" href="../../../wyp/css/list.css"/>
+
+    <script src="../../../wyp/js/jquery-1.7.2.min.js"></script>
+
+</head>
+
+
+
+<body>
+<!--sou开始-->
+<div id="sou">
+    <div class="sou-left">
+        <div class="sou-icon1"></div>
+    </div>
+    <div class="sou-right">
+
+        <div style="float: left;width: 6%;padding-top: 10px"><img src="../../../wyp/images/icon/sou.png" alt="" style="width: 15px;height: 15px;"/></div>
+        <div class="sou-box">
+            <div class="search">
+                <input onclick="click();"  placeholder="搜索商品" type="text">
+            </div>
+            <img class="del"  src="../../../wyp/images/icon/cha.png" alt="" style="width: 16px;height: 16px;float: right;padding-top: 5px;display: none"/>
+        </div>
+        <div class="seek_bar_btn">
+            <button style="display: none">搜索</button>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.sou-box .search input').mouseover(function(){
+                $('.del').show();
+                $('button').show();
+            });
+            $('.sou-box .search input').mouseleave(function(){
+                /*alert("赶紧隐藏");*/
+                $('.del').hide();
+                $('button').hide();
+            });
+            $('.sou-right').click(function(){
+                $('.del').show();
+                $('button').show();
+            })
+        });
+
+    </script>
+</div>
+<!--sou结束-->
+
+
+
+<!--分类导航开始-->
+<div class="l-nav">
+    <div class="l-nav-box">
+        <ul>
+            <li>
+                <span>综合</span>
+                <img src="../../../wyp/images/icon/select.png" alt="" style="width: 11px;height: 13px; padding-bottom: 2px"/>
+            </li>
+            <li>
+                <span>销量</span>
+                <img src="../../../wyp/images/icon/select.png" alt="" style="width: 11px;height: 13px; padding-bottom: 2px"/>
+            </li>
+            <li>
+                <span>价格</span>
+                <img src="../../../wyp/images/icon/select.png" alt="" style="width: 11px;height: 13px; padding-bottom: 2px"/>
+            </li>
+            <li>
+                <span>最新</span>
+            </li>
+            <li style="width: 25px;height: 25px;">
+                <span></span>
+                <a href="../../../wyp/pages/fenlei/fenlei.html"><img src="../../../wyp/images/icon/fenlei.png" alt="" style="width: 100%;padding-left: 10px "/></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--分类导航结束-->
+
+<!--中间图片开始-->
+<div clas="hot_shop" style="margin-bottom: 100px">
+    <div class="hot_goods">
+        <ul class="clearfix">
+            <li style="width: 49%">
+                <div class="hot_img">
+                    <a href="detail.html">
+                        <img id="vux-ximg-t68jv" class="vux-x-img" src="../../../wyp/images/paper/hwNB-1.jpg" data-src="" alt="">
+                    </a>
+
+                </div>
+                <div class="display_table">
+                    <div class="table_cell">
+                        <span class="hot_name">新品花王纸尿裤【新店开业，限时福利】</span>
+                    </div>
+                </div>
+                <div class="hot_down clearfix cart_style1">
+                    <div class="hot_data">
+                        <span class="hot_volume">540人付款</span>
+                                            <span class="hot_price">
+                                                <i>￥</i>
+                                                25.00
+                                            </span>
+                                            <span class="hot_price_before">
+                                                ￥
+                                                <del>40.00</del>
+                                            </span>
+                    </div>
+                    <div class="hot_cart"></div>
+                </div>
+            </li>
+            <li style="float: right; width: 49%">
+                <div class="hot_img">
+                    <img id="vux-ximg-t68jv" class="vux-x-img" src="../../../wyp/images/paper/hwNB-1.jpg" data-src="" alt="">
+                </div>
+                <div class="display_table">
+                    <div class="table_cell">
+                        <span class="hot_name">新品花王纸尿裤【新店开业，限时福利】</span>
+                    </div>
+                </div>
+                <div class="hot_down clearfix cart_style1">
+                    <div class="hot_data">
+                        <span class="hot_volume">540人付款</span>
+                                            <span class="hot_price">
+                                                <i>￥</i>
+                                                25.00
+                                            </span>
+                                            <span class="hot_price_before">
+                                                ￥
+                                                <del>40.00</del>
+                                            </span>
+                    </div>
+                    <div class="hot_cart"></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+</div>
+
+
+
+<!--中间图片结束-->
+
+<!--底部菜单开始-->
+<div>
+    <footer class="f-i-nav">
+        <div id="f-menu" class="f-menu">
+            <ul>
+                <li>
+                    <a class="f-i-act" href="main-1.html">
+                        <!--<i class="icon icon-home"></i>-->
+                        <p>首页</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-i-act" href="list.html">
+                        <!--<i class="icon icon-goods"></i>-->
+                        <p class="list">列表</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-i-act" href="../../../wyp/pages/gowu/gwche.html">
+                        <!--<i class="icon icon-cart"></i>-->
+                        <p>购物车</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-i-act" href="">
+                        <!--<i class="icon icon-surprise"></i>-->
+                        <p>惊喜</p>
+                    </a>
+                </li>
+                <li>
+                    <a class="f-i-act" href="home.html">
+                        <!--<i class="icon icon-user"></i>-->
+                        <p>我</p>
+                    </a>
+                </li>
+                <div class="f-cart-num">0</div>
+            </ul>
+        </div>
+    </footer>
+</div>
+<!--底部菜单结束-->
+</body>
+</html>

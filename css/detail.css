@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*body, ul, dl, dd, dt, ol, li, p, h1, h2, h3, h4, h5, h6, textarea, form, select, fieldset, table, td, div, input {margin:0;padding:0;-webkit-text-size-adjust: none}
+h1, h2, h3, h4, h5, h6{font-size:12px;font-weight:normal}
+a img {border:0}
+body { color: #333; text-align: center; font: 12px "宋体"; }
+ul, ol, li {list-style-type:none;vertical-align:0}*/
+a {
+    outline-style:none;
+    /*color:#535353;*/
+    text-decoration:none;
+}
+a:hover { color: #D40000; text-decoration: none}
+
+.slider{
+    display:none ;
+    height : 400px !important;
+}/*用于获取更加体验*/
+.focus{
+    text-align: center;
+    background: none !important;
+    width: 60% !important;
+    position: absolute;
+    /*left: 30%;*/
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.focus div{
+    width: 100% !important;
+    text-align: center !important;
+    position: absolute;
+    left: 23%;
+}
+
+.focus span{
+    width:10px;
+    height:10px;
+    display: block;
+    margin-right:10px;
+    /*margin: auto;*/
+    border-radius:50%;
+    background:#aaaaaa;
+    font-size:0
+    /*padding-left: 20px;*/
+
+
+}
+.focus span.current{
+    background:orangered;
+}

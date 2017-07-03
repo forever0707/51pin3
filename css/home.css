@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+body{
+    background: #F2F2F2;
+}
+a{
+    color: #333333;
+}
+/*头像开始*/
+.head{
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background: -webkit-linear-gradient(left, rgba(255,105,81,1), rgba(255,48,104,1)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, rgba(255,105,81,1), rgba(255,48,104,1)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, rgba(255,105,81,1),rgba(255,48,104,1));/* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, rgba(255,105,81,1), rgba(255,48,104,1));
+}
+
+.vip-header {
+   /* background: rgba(0, 0, 0, 0) url("../images/vip_bg1.jpg") no-repeat scroll 0 0 / 110% auto;*/
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.vip-header a {
+    color: #fff;
+    display: block;
+}
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+.vip-header dl {
+    overflow: hidden;
+    padding: 14px 6% 0;
+}
+.vip-header dt {
+    border: 4px solid rgba(255, 255, 255, 0.4);
+    border-radius: 100%;
+    float: left;
+    height: 65px;
+    overflow: hidden;
+    width: 65px;
+}
+.vip-header img {
+    height: 100%;
+    width: 100%;
+}
+
+.vip-header dd {
+    float: left;
+    padding: 7px 0 0 10px;
+}
+
+.vip-header h4 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 32px;
+}
+
+.vip-header h4 span {
+    background: #4cd964 none repeat scroll 0 0;
+    border-radius: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    padding: 2.6px 5px;
+}
+
+.vip-header dd p {
+    font-size: 14px;
+}
+
+address, caption, cite, code, dfn, em, th, var, i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.vip-header ul {
+    bottom: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.vip-header ul li a p i{
+    color: #dca7a7;
+}
+ol, ul {
+    list-style: outside none none;
+}
+
+.vip-header li {
+    background: rgba(60, 60, 60, 0.3) none repeat scroll 0 0;
+    float: left;
+    /*margin-right: 0.33%;*/
+    padding: 3px 0;
+    text-align: center;
+    width: 33%;
+}
+.vip-header a {
+    color: #fff;
+    display: block;
+}
+.vip-header li span {
+    font-size: 13px;
+}
+/*头像结束*/
+
+/*优惠券开始*/
+.coupon{
+    width: 100%;
+    height: 72px;
+    margin: auto;
+    /*border: 1px solid red;*/
+    border-bottom: 1px solid #d5d5d5;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    color: #333333;
+}
+.coupon .icon{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
+.coupon .yhj{
+    width: 100%;
+    height: 30px;
+   margin-top: 10px;
+
+}
+.coupon ul li{
+    width: 33%;
+    float: left;
+    margin: auto;
+    text-align: center;
+    /*font-family: '宋体';*/
+    font-size: 14px;
+}
+.coupon ul li a span{
+    color: #333333;
+}
+.coupon ul li i{
+    color: red;
+}
+/*优惠券结束*/
+
+/*全部订单开始*/
+.order{
+    width: 100%;
+    height: 100px ;
+    margin: auto;
+    position: relative;
+    /*border: 1px solid black;*/
+}
+.order .all-order{
+    width: 100%;
+    height: 42px;
+
+}
+.order h4{
+    width: 70%;
+    height: 40px;
+    display: block;
+    float: left;
+    font-weight: normal;
+    padding-left: 10px;
+
+}
+.order .look{
+    float: right;
+    width: 30%;
+    height: 45px;
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*待收发货开始*/
+.order .huo{
+    width: 100%;
+    height: 25px;
+    clear: both;
+    /*border:  1px solid red;*/
+
+}
+.order .huo ul li{
+    width: 20%;
+    text-align: center;
+    float: left;
+    font-size: 12px;
+}
+/*待收发货结束*/
+/*全部订单结束*/
+
+/*new 开始*/
+.new{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+.new .new-one{
+    width: 100%;
+    height: 75px;
+}
+.new .new-one .new-box{
+    width: 100%;
+    height: 75px;
+}
+.new .new-one .new-box ul li{
+    width: 25%;
+    height: 75px;
+    float: left;
+    text-align: center;
+}
+.new .new-one .new-box ul li a img{
+    width: 25px;
+    height: 25px;
+}
+.new .new-one .new-box ul li a p{
+    font-size: 14px;
+}
+
+/*new 结束*/

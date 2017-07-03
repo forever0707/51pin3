@@ -1,0 +1,87 @@
+@charset "UTF-8";
+.f-menu {
+    background-color: hsla(0, 0%, 100%, 0.9);
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    max-height: 3.04rem;
+    min-height: 0.96rem;
+    position: fixed;
+    width: 100%;
+    z-index: 200;
+}
+.f-menu ul {
+    padding: 0.2rem;
+    width: 100%;
+}
+.f-menu li, .f-menu ul {
+    display: flex;
+}
+.f-menu li {
+    -moz-box-flex: 1;
+    -moz-box-pack: center;
+    flex: 1 1 0;
+    justify-content: center;
+    overflow: hidden;
+    text-align: center;
+    width: 0;
+}
+.f-menu li p {
+    color: #999;
+    font-size: 0.3rem;
+}
+.f-menu li a.f-i-act p {
+    /*color: #e76540;*/
+}
+.f-menu li a.f-i-act .index{
+    color: #e76540;
+}
+.f-menu li a.f-i-act .list{
+    color: #e76540;
+}
+.f-menu li a.f-i-act .sup{
+    color: #e76540;
+}
+.f-menu li a.f-i-act .home{
+    color: #e76540;
+}
+.f-i-nav .f-menu li a.f-i-act p {
+   /* color: #dc180c;*/
+}
+
+.f-i-nav .f-menu li:nth-child(3) a {
+    background: rgba(0, 0, 0, 0) url(../../wyp/images/icon/f-gowu.png) no-repeat scroll 0 0 / cover;
+    display: block;
+    height: 1.08rem;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -0.56rem);
+    width: 1.08rem;
+    z-index: 2;
+}
+.f-i-nav .f-menu li:nth-child(3) i, .f-i-nav .f-menu li:nth-child(3) p {
+    display: none;
+}
+.f-i-nav .f-cart-num {
+    left: 50%;
+}
+.f-i-nav .f-cart-num, .f-i-nav .f-cart-num2 {
+    background-color: #fff;
+    border-radius: 0.2rem;
+    color: #fc4246;
+    display: block;
+    font-size: 0.2rem;
+    line-height: 1;
+    margin-left: 0.04rem;
+    padding: 0.04rem 0.08rem;
+    position: absolute;
+    text-align: center;
+    top: 0.32rem;
+    transform: translate(-50%, -0.56rem);
+    vertical-align: top;
+    z-index: 22;
+}
+.f-i-nav .f-cart-num2 {
+    left: 70%;
+}
+

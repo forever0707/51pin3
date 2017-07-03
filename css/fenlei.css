@@ -1,0 +1,225 @@
+@charset "UTF-8";
+body{
+   background:#FFFFFF;
+}
+/*分类页面开始*/
+/*全部商品开始*/
+.all{
+    width: 100%;
+    height: 1rem;
+   /* border: 1px solid red;*/
+    background: #f3f3f3;
+}
+.all p{
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 12px;
+}
+.all span{
+    text-align: right;
+}
+/*全部商品结束*/
+
+/*分类开始*/
+.type{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+   /* border: 1px solid black;*/
+}
+.type .public{
+    width: 100%;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 10px;
+    /*margin-bottom: 5px;*/
+    background: #FFFFFF;
+
+}
+.type .public span{
+    color: #8c8c8c;
+}
+.type .public a span{
+    font-size: 10px;
+    color: #a4a4a4;
+    display: block;
+    padding-right: 10px;
+    float: right;
+
+}
+.type .li{
+    width: 100%;
+    height: 100px;
+}
+.type .li ul{
+    width: 50%;
+    float: left;
+
+}
+.type .li ul li{
+    height: 45px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 2px;
+    margin-bottom: 2px;
+    background: #f3f3f3;
+    color: #8c8c8c;
+
+}
+/*分类结束*/
+/*分类页面结束*/
+
+
+/*gwche开始*/
+/*购物车开始*/
+.wyp{
+    width: 100%;
+    height: 45px;
+    border-bottom: 1px solid #d8d8d8;
+}
+.wyp span{
+    display: block;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: #8c8c8c;
+
+}
+.wyp .left{
+    width: 60%;
+    height: 45px;
+    display: block;
+    float: left;
+}
+.wyp .right{
+    width: 15%;
+    height: 45px;
+    display: block;
+    padding-left: 5px;
+    float: right;
+}
+/*购物车结束*/
+
+/*结算开始*/
+.js{
+   width: 100%;
+   height: 58px;
+    border-top: 1px solid #d8d8d8;
+}
+.js div{
+    /*padding-top: 12px;*/
+    /*padding-left: 10px;*/
+    float: left;
+}
+.js .left{
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 25%;
+    color: #464646;
+}
+.js .heji{
+    padding-top: 8px;
+    width: 50%;
+}
+.js .heji span{
+    color: #464646;
+    font-size: 10px;
+}
+
+.js .heji em{
+    color: orangered;
+}
+.js .heji i{
+    color: #464646;
+    font-size: 10px;
+}
+.js .heji strong{
+    font-size: 10px;
+    color: #464646;
+    font-weight: normal;
+}
+.js .right{
+    padding-top: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    height: 100%;
+    background: orangered;
+}
+/*结算结束*/
+/*gwche结束*/
+
+/*添加购物车开始*/
+.lists {
+    margin-top: 3%;
+    width: 100%;
+}
+
+.clearfloat::after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lists .lie {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    margin-bottom: 2%;
+    padding: 0.4rem 0.2rem;
+    width: 100%;
+}
+
+a {
+    outline: medium none;
+    text-decoration: none;
+}
+a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.lists .lie .tu {
+    text-align: center;
+    width: 25%;
+}
+.fl {
+    display: inline;
+    float: left;
+}
+
+.lists .lie .tu img {
+    max-width: 100%;
+}
+.lists .lie .right {
+    margin-left: 3%;
+    width: 72%;
+}
+
+.lists .lie .right .tit {
+    color: #333333;
+    font-size: 0.35rem;
+    line-height: 0.6rem;
+}
+.lists .lie .right .xia {
+    height: 0.8rem;
+    line-height: 0.8rem;
+    width: 100%;
+}
+
+.lists .lie .right .jifen {
+    color: #fc8f00;
+    font-size: 0.3rem;
+    width: 80%;
+}
+.fl {
+    display: inline;
+    float: left;
+}
+/*.over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}*/
+/*添加购物车结束*/

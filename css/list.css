@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/*搜索开始*/
+#sou{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #D8E0E5;
+}
+#sou .sou-left{
+    float: left;
+    padding-top: 10px;
+    padding-left: 8px;
+
+
+}
+.sou-left{
+    width: 10%;
+}
+.sou-left .sou-icon1{
+    height: 0.66rem;
+    position: relative;
+    width: 0.4rem;
+    background: url(../../wyp/images/list.png) scroll 0 0 / 0.4rem 4rem  ;
+}
+#sou .sou-right{
+    float: right;
+}
+.sou-right{
+    width: 90%;
+    height: 1rem;
+}
+.sou-right .sou-box{
+    height: 25px;
+    width: 70%;
+    float: left;
+    margin-top: 10px;
+    background: #E3E5E8;
+    border: 1px solid #E3E5E8;
+}
+.seek_bar_btn button{
+    display: block;background: #db2121 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0.06rem;
+    color: #fff;
+    font-size: 0.28rem;
+    height: 0.67rem;
+    float: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 1.1rem;
+}
+
+.sou-right .search{
+    width: 70%;
+    height: 0.75rem;
+    float: left;
+}
+.sou-right .search input{
+    border: none;
+    display: block;
+    float: left;
+    background: none;
+}
+.sou .sou-right .search img{
+    width: 16px !important;
+    height: 16px;
+   /* background: url(../images/cha.png) no-repeat;*/
+}
+/*搜索结束*/
+
+/*分类导航开始*/
+.l-nav{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 1px solid #D8E0E5;
+    margin-bottom: 5px;
+}
+.l-nav .l-nav-box{
+    width: 100%;
+    height: 0.5rem;
+    margin-top: 10px;
+
+}
+.l-nav div ul li{
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+.l-nav div ul li span{
+    color: #A2A5A5;
+    font-size: 0.30rem;
+}
+/*分类导航结束*/
+
+
